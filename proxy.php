@@ -3,7 +3,7 @@
 $site = $_GET['site'];
 $method = $_GET['method'];
 
-if ($site === 'hamqth') {
+if ($site === 'qth') {
 	$url = 'http://www.hamqth.com/xml.php?';
 
 	if ($method === 'login') {
