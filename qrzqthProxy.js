@@ -4,7 +4,7 @@ var qrzqthProxy = {
 
 	lookupCall : function  (site, callsign, callback) {
 
-		alert('Looking up ' + callsign + ' from ' + site);
+		//alert('Looking up ' + callsign + ' from ' + site);
 
 		qrzqthProxy.originalCallback = callback;
 
@@ -23,7 +23,7 @@ var qrzqthProxy = {
 
 	login : function  (site, callback) {
 
-		alert('Logging in to ' + site);
+		//salert('Logging in to ' + site);
 
 		$.ajax({
 				url : '/qrzqthProxy/proxy.php?site=' + site + '&method=login&u=' + userSettings[site].username + '&p=' + userSettings[site].password,
